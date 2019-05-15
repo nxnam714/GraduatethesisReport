@@ -1,0 +1,11 @@
+\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}\ \dotfill}}
+\newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}
+
+\chapter*{Thuật ngữ \& từ viết tắt}
+\thispagestyle{empty}
+\pagestyle{empty}
+\addcontentsline{toc}{chapter}{Thuật ngữ \& từ viết tắt}
+\vspace{1.0cm}
+\begin{abbreviations}
+	\item .
+\end{abbreviations}
